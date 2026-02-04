@@ -56,5 +56,15 @@ form input{
     font-size: 1.2rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 0.5vh 0.5vw;
+    border: 1px solid black;
+    border-radius: 1vmin;
 }
 
+form select {
+    font-size: 1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0.5vh 0.5vw;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 1vmin;
+}
