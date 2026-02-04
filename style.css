@@ -68,3 +68,8 @@ form select {
     border: 1px solid black;
     border-radius: 1vmin;
 }
+
+form textarea{
+    resize: none;
+    height: 20%;
+}
