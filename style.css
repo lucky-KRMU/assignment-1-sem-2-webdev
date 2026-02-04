@@ -43,3 +43,8 @@ form{
     padding: 2vh 2vw;
     gap: 2vmin;
 }
+form h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 110, 255);
+    margin: 2vh 0;
+}
