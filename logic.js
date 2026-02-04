@@ -9,6 +9,8 @@ let submitBtn = document.getElementById("submit-btn");
 
 let gridCard = document.getElementById("grid-card");
 
+let cardArray = [];
+
 
 let titleValue = title.value;
 let dateValue = date.value;
@@ -22,12 +24,6 @@ let gridCardContent = gridCard.innerHTML;
 form.addEventListener('submit', (e)=>{
     e.preventDefault();
     console.log(gridCardContent)
-
-    
-
-    // title.value = '';
-    // date.value = '';
-    // description.value = '';
 })
 
 submitBtn.addEventListener('click', ()=>{
@@ -38,6 +34,10 @@ submitBtn.addEventListener('click', ()=>{
                     <label>${categoryValue}</label>
                     <p class="des">${descriptionValue}</p>
                 </div>`;
-
-    gridCard.innerHTML += card;
+    cardArray.push(card)
+    gridCard.innerHTML = '';
+    cardArray.map((e)=> gridCard.innerHTML+=e)
+    // title.value = '';
+    // date.value = '';
+    // description.value = '';
 })
