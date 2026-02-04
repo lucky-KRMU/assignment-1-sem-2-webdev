@@ -9,7 +9,25 @@
 <body>
     <h1>🎯 Smart Event Dashboard</h1>
     <div id="hero">
-        <div class="add-event-section"></div>
+        <div class="add-event-section">
+            <form onsubmit="formSubmit()">
+                <h2>Add New Event</h2>
+                <label for="title">Enter Title:</label>
+                <input type="text" name="title" id="title">
+                <label for="title">Enter Date:</label>
+                <input type="date" name="Date" id="Date">
+                <label for="category">Enter Category:</label>
+                <select name="category" id="category">
+                    <option value="Conference">Conference</option>
+                    <option value="Social">Social</option>
+                    <option value="Bootcamp">Bootcamp</option>
+                    <option value="Workshop">Workshop</option>
+                    <option value="Others">Others</option>
+                </select>
+                <label for="Description">Description: </label>
+                <textarea name="Description" id="Description"></textarea>
+            </form>
+        </div>
         <div class="show-event-section"></div>
     </div>
 </body>
