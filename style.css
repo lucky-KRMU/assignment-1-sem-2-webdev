@@ -132,4 +132,16 @@ form button{
 .grid-card {
     display: grid;
     grid-template-columns: auto auto;
+    margin: auto;
+}
+
+.cancel-btn {
+    position: relative;
+    left: 45vh;
+    top: 1vh;
+    background-color: rgb(63, 0, 0);
+    font-size: 1.1rem;
+    border-radius: 100%;
+    padding: 0.5vmin;
+    cursor: pointer;
 }
