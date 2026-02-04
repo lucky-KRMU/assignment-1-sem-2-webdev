@@ -14,6 +14,13 @@ body{
     background: linear-gradient(to right, seagreen,teal);
 }
 
+#hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+
 .add-event-section {
     height: 80vh;
     width: 30vw;
