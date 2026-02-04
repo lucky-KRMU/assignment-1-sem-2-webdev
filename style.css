@@ -36,3 +36,10 @@ body{
     background-color: white;
     border-radius: 2vh;
 }
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 2vh 2vw;
+    gap: 2vmin;
+}
